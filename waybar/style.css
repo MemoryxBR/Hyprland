@@ -1,0 +1,34 @@
+
+/* borda geral e font e tamanho */
+* {
+	border: none;
+    font-family: "noto-fonts";
+    font-size: 16px;
+}
+
+/* cor geral e cor de letra */
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+/*deixa os botoes de workwindow bonito*/
+#workspaces button { 
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+}
+
+
+/* configuração pra colocar borda e fundo*/
+#clock,
+#battery,
+#pulseaudio,
+#network {
+    padding: 5px 15px;
+    margin: 7px;
+    color: white;
+}
+
+
+

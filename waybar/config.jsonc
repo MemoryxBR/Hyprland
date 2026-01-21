@@ -1,0 +1,27 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center":["hyprland/window"],
+    "modules-right": ["pulseaudio","clock","battery"],
+
+    "pulseaudio": {
+	"format":"{volume}%",
+	"format-muted": "Mute"
+},
+
+    "battery": {
+        "format": "🗲 {capacity}%"
+    },
+    "clock": {
+    "format": "{:%H:%M %a, %b %Y}",
+    "tooltip-format": "<big>{:%A, %d de %B de %Y}</big>"
+},
+    "hyprland/workspaces": {
+    	"format": "{name}"
+    	},
+
+	"hyprland/window": {
+	    "format": "{}",
+	    "separate-outputs": true
+	}
+}
