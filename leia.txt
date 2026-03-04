@@ -1,0 +1,7 @@
+Apps:
+	Hyprland, Micro, Kitty, Dolphin, Rofi, Waybar
+	Steam, Spotify, Bluetooth, Discord, Zed, chrome
+
+pacotes:
+	noto-fonts, ttf-nerd-fonts-symbols
+	git, aur
